@@ -1,3 +1,75 @@
-body {
-background-color:coral
+html * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
+
+body {
+  background-color: orange;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  max-height: 100vh;
+  justify-content: space-evenly;
+  background-color: darkslategrey;
+}
+
+main div {
+    width: 30%;
+    height: 250px;
+    margin: 10px;
+    border: 2px red solid;
+    border-radius: 5px;
+    transition: all 0.5s;
+}
+
+main div h2 {
+    position: relative;
+    top: -5%;
+    background-color: darkslategray;
+    border: red 2px solid;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 920px) {
+    main div {
+        width: 45%;
+        border: 2px solid green;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    main div {
+        width: 80%;
+        border: 2px solid blue;
+    }
+}
+/* .peanut {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-size: 40px;
+}
+.butter {
+  display: flex;
+  flex-direction: column;
+  font-size: 40px;
+}
+.jelly {
+  display: grid;
+  width: 100%;
+  grid-template-columns: auto;
+  repeat: (12, 1fr);
+  font-size: 40px;
+}
+.time {
+  border-style: solid solid;
+  font-size: 40px;
+} */
