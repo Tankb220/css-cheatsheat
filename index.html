@@ -13,26 +13,65 @@
     </header>
     <main>
       <div class="peanut">
-        <h2>Peanut</h2>
-        <p>Delicius Legume</p>
+        <h2>Flexbox Row</h2>
+        <h3>Use these three properties to create a flexbox row layout</h3>
+        <p>.row {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        </p>
       </div>
       <div class="butter">
-        <h2>Butter</h2>
-        <p>smooth and creamy</p>
+        <h2>Flexbox Column</h2>
+        <h3>Use this to creat a Flexbox column layout</h3>
+        <p>.column {
+            display: flex;
+            flex-direction: column
+        }
+        </p>
       </div>
       <div class="jelly">
-        <h2>Jelly</h2>
-        <p>Fruity and goes well with peanut butter</p>
+        <h2>CSS Grid Layout</h2>
+        <h3>Build a 12 column layout using CSS Grid.</h3>
+        <p> grid {
+             display: grid;
+            width: 100%;
+            grid-template-columns: auto;
+            repeat: (12, 1fr);
+        }
+        </p>
       </div>
       <div class="time">
-        <h2>Time</h2>
-        <p>measures the day</p>
+        <h2>LInear Gradients</h2>
+        <h3>This will creat a backgound linear gradient from top to bottom.</h3>
+        <p>.linear-gradient-background {
+            backround-image: linear-gradient{
+                rgba(0%)
+                rgba(100%)}:
+            }
+        </p>
       </div>
       <div class="baseball">
-        <h2>American sport</h2>
+        <h2>Box Trasnsition Glow</h2>
+        <h3>Use transition and box shadows to glow on hover.</h3>
+        <p>.code-card .card-header {
+            border-radius: 8px;
+            transition: all 0.5s ease-in-out;}
+        </p>
+        <p>.code-card:hover, . card-header {
+            box-shadow: insert 0px 0px 8px 
+            rgba(0 0 0). 0 0 15px rgba(0 0 0):}
+        </p>
       </div>
-      <div class="baseball">
-        <h2>American sport</h2>
+      <div class="bat">
+        <h2>Overlay Card with Title</h2>
+        <h3>Use position properties and negative margins to raise elements higher than their natural starting point</h3>
+        <p>.card-header {
+            position: relative;
+            margin-top: -20px;
+        }
+        </p>
       </div>
     </main>
   </body>

@@ -5,13 +5,20 @@ html * {
 }
 
 body {
-  background-color: orange;
+  background-color: darkslategray;
 }
 
 h1,
 h2 {
     text-align: center;
+    color:darkturquoise
 }
+h3 {
+    color: darkturquoise;
+    font-size: 13px;
+}
+    
+
 
 main {
   display: flex;
